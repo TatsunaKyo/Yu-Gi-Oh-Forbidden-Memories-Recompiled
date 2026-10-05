@@ -1,0 +1,41 @@
+{
+  "id": "field-fusion-helper",
+  "name": "Field Fusion Helper",
+  "version": "0.1.0",
+  "author": "TatsunaKyo",
+  "description": "Shows fusion routes that start from monsters already on the player's field and continue with cards in hand.",
+  "min_api": 4,
+  "game": "slus_01411",
+  "library": "field-fusion-helper",
+  "enabled": false,
+  "restart": false,
+  "settings": [
+    {
+      "key": "text_scale",
+      "label": "Text size",
+      "type": "choice",
+      "default": 3,
+      "choices": ["Auto (match menu)", "1x", "2x", "3x", "4x", "5x", "6x"]
+    },
+    {
+      "key": "position",
+      "label": "Position",
+      "type": "choice",
+      "default": 0,
+      "choices": ["Top left", "Top centre", "Top right"]
+    },
+    {
+      "key": "style",
+      "label": "Style",
+      "type": "choice",
+      "default": 0,
+      "choices": ["Menu panel", "Minimal"]
+    },
+    {
+      "key": "show_empty",
+      "label": "Show when no field fusion exists",
+      "type": "bool",
+      "default": 0
+    }
+  ]
+}
